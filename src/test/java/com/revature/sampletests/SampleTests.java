@@ -1,9 +1,5 @@
 package com.revature.sampletests;
-
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 import com.revature.assessors.RevAssess;

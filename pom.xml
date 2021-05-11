@@ -13,15 +13,25 @@
 
 
 	<dependencies>
-
 		<dependency>
-			<groupId>com.revature</groupId>
-			<artifactId>RevAssess</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/resources/RevAssess-jar-with-dependencies.jar</systemPath>
+			<groupId>dev.ranieri</groupId>
+			<artifactId>RevAssessJUnit</artifactId>
+			<version>1</version>
 		</dependency>
-		
 	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>maven-group</id>
+			<url>http://35.184.71.193/repository/maven-public/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+
+		</repository>
+	</repositories>
 
 </project>
